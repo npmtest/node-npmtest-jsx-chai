@@ -35,40 +35,18 @@
 ```json
 
 {
-    "name": "jsx-chai",
-    "version": "4.0.0",
-    "description": "JSX assertions for Chai using Algolia's react-element-to-jsx-string",
-    "main": "lib/jsx-chai.js",
-    "scripts": {
-        "test": "istanbul cover _mocha",
-        "build": "babel-node $(which gulp) build"
+    "author": {
+        "name": "Brandon Konkle"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/bkonkle/jsx-chai.git"
-    },
-    "keywords": [
-        "chai",
-        "testing",
-        "assertions",
-        "jsx",
-        "react"
-    ],
-    "author": "Brandon Konkle <brandon@konkle.us>",
-    "license": "MIT",
     "bugs": {
         "url": "https://github.com/bkonkle/jsx-chai/issues"
-    },
-    "homepage": "https://github.com/bkonkle/jsx-chai#readme",
-    "peerDependencies": {
-        "chai": "^3.4.0",
-        "react": "^0.14.0 || ^15.0.0-0"
     },
     "dependencies": {
         "collapse-white-space": "^1.0.0",
         "react-addons-test-utils": "^15.0.1",
         "react-element-to-jsx-string": "^2.5.0"
     },
+    "description": "JSX assertions for Chai using Algolia's react-element-to-jsx-string",
     "devDependencies": {
         "babel-cli": "^6.1.2",
         "babel-core": "^6.1.2",
@@ -91,6 +69,42 @@
         "react": "^15.0.1",
         "webpack": "^1.12.3"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "e4e46fb5b79b780268ad14d17fd10c60c0286578",
+        "tarball": "https://registry.npmjs.org/jsx-chai/-/jsx-chai-4.0.0.tgz"
+    },
+    "gitHead": "c718e85978b42389a94a6a894c1c24361f244971",
+    "homepage": "https://github.com/bkonkle/jsx-chai#readme",
+    "keywords": [
+        "chai",
+        "testing",
+        "assertions",
+        "jsx",
+        "react"
+    ],
+    "license": "MIT",
+    "main": "lib/jsx-chai.js",
+    "maintainers": [
+        {
+            "name": "bkonkle"
+        }
+    ],
+    "name": "jsx-chai",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "chai": "^3.4.0",
+        "react": "^0.14.0 || ^15.0.0-0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bkonkle/jsx-chai.git"
+    },
+    "scripts": {
+        "build": "babel-node $(which gulp) build",
+        "test": "istanbul cover _mocha"
+    },
+    "version": "4.0.0",
     "bin": {}
 }
 ```
